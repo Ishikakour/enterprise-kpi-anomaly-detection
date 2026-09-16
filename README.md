@@ -1,6 +1,6 @@
 # Enterprise KPI Anomaly Detection — Procurement Risk Case Study
 
-**Live Dashboard:** [YOUR-STREAMLIT-URL] ← *update after deployment*
+**Live Dashboard:** [YOUR-STREAMLIT-URL]
 
 > **Methodology Note:** This project is a methodology case study based on my experience building KRI tracking dashboards at Philips. No proprietary data is used. The synthetic dataset mirrors real enterprise procurement structures — project timelines, vendor performance, and budget variance across business units.
 
@@ -68,7 +68,7 @@ analysis.sql (KRI queries)
 | `app.py` | Streamlit dashboard |
 | `analysis.sql` | KRI queries with window functions |
 | `requirements.txt` | Dependencies |
-| `dashboard.png` | Screenshot |
+| `dashboard1.png``dashboard.png` | Screenshot |
 
 ## How to Run
 
