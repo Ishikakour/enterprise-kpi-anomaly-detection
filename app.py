@@ -346,4 +346,4 @@ if total_projects > 0 and len(vendor_agg) and len(bu_agg):
 else:
     st.info("No projects match the current filters.")
 
-st.caption("Python · Pandas · SciPy · Plotly · Streamlit")
+st.caption("Python · Pandas · NumPy · Plotly · Streamlit")
