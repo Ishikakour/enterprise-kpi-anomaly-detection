@@ -9,6 +9,13 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
+import os
+import subprocess
+
+if not os.path.exists("procurement_data.csv"):
+    print("Dataset not found. Generating...")
+    subprocess.run(["python", "generate_data.py"], check=True)
+
 st.set_page_config(
     page_title="Enterprise KPI Anomaly Detection",
     page_icon="⚠️",
